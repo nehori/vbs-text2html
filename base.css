@@ -1,0 +1,115 @@
+/*
+   背景色、サブタイトル背景、文字色 を変更したい場合の初期設定
+*/
+
+body{
+	background: #99ff99; /* 背景色 */
+}
+
+h2 {
+	color : #ffffff;     /* 文字色 */
+	background: green;   /* サブタイトル色 */
+}
+
+/* -------------------------------- */
+
+/*
+   変更不要
+*/
+
+body{
+	color: #000000;
+	text-align:center; /* IE */
+        margin-left:auto;
+        margin-right:auto;
+        width: 90%;
+}
+
+#content{
+	background: #ffffff;
+	text-align: left; /* IE */
+	padding-bottom: 3px; /* 空白を入れたい */
+}
+
+#header{
+
+}
+
+#fooder{
+	text-align: right;
+	width: 100%; /* FF */
+	padding-left: 30px; /* FF */
+}
+
+h1 {
+	font-size : 150%;
+}
+
+h2 {
+	font-size : 100%;
+	font-weight : normal;
+/* width: 100%; FFで問題 */
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-bottom: inset;
+	border-right: inset;
+	padding-left: 20px;
+}
+
+h3 {
+	font-size : 100%;
+	color : #000000;
+	font-weight : bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+
+h4 {
+	font-size : 100%;
+	color : #000000;
+	font-weight : bold;
+	padding-left: 20px;
+}
+
+p {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+li {
+	padding-right: 20px;
+}
+
+strong {
+	color : red;
+	font-weight : normal;
+}
+
+img{
+	border : 0px;
+}
+
+table {
+	margin-top: 0.2em;
+	margin-bottom: 1em;
+	border-spacing: 2px;
+}
+TH {
+  color: #ffffff; /* 文字の色 */
+  background-color: #666699; /* 背景の色 */
+  border-style: solid; /* 枠の種類 */
+  border-color: #9999cc #333366 #333366 #9999cc; /* 枠の色 */
+  border-width: 1px; /* 枠の幅 */
+}
+TD {
+  color: #ffffff; /* 文字の色 */
+  background-color: #9999cc; /* 背景の色 */
+  border-style: solid; /* 枠の種類 */
+  border-color: #ccccff #666699 #666699 #ccccff; /* 枠の色 */
+  border-width: 1px; /* 枠の幅 */
+}
+.tmp {
+	font-weight : bold;
+	color : green;
+}
