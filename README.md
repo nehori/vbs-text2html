@@ -3,7 +3,7 @@ text2html
 
 ## 概要 ##
 
-	text2htmlはwiki表記のファイルを、EXEに対してドラッグすることで
+text2htmlはwiki表記のファイルを、EXEに対してドラッグすることでHTMLファイルを出力します
 
 ## 起動方法 ## 
 
